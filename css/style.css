@@ -826,3 +826,20 @@ footer{
 .footer-social a:hover .insta-icon{
   fill:#fff;
 }
+/* ================= FIX GALLERY FILTER TEXT ================= */
+.gallery-filters button {
+  color: #111 !important;        /* force text visible */
+  background: transparent;
+}
+
+/* Active button */
+.gallery-filters button.active {
+  background: var(--gold) !important;
+  color: #fff !important;
+}
+
+/* Hover effect */
+.gallery-filters button:hover {
+  background: var(--gold);
+  color: #fff;
+}
