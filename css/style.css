@@ -40,10 +40,16 @@ nav.scrolled{
   backdrop-filter:blur(10px);
 }
 
-.logo{
-  font-family:'Playfair Display',serif;
-  letter-spacing:3px;
-  font-size:1.3rem;
+.logo img {
+  height: 42px;        /* desktop */
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .logo img {
+    height: 34px;      /* mobile */
+  }
 }
 
 .nav-links{
